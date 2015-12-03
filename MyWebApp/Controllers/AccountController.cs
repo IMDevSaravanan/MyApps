@@ -154,6 +154,8 @@ namespace MyWebApp.Controllers
                 }
             }
             else
+
+
             {
                 // User does not have a password so remove any validation errors caused by a missing OldPassword field
                 ModelState state = ModelState["OldPassword"];
