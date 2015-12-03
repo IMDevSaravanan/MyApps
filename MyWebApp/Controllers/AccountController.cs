@@ -162,6 +162,7 @@ namespace MyWebApp.Controllers
                 if (state != null)
                 {
                     state.Errors.Clear();
+                    //Tst
                 }
 
                 if (ModelState.IsValid)
